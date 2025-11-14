@@ -27,7 +27,7 @@ export default function AdminPage() {
   const [loadingStats, setLoadingStats] = useState(true);
 
   // Email do admin (SUBSTITUA pelo seu email)
-  const ADMIN_EMAIL = "antonynicolau.an@gmail.com";
+  const ADMIN_EMAIL = "seu-email@exemplo.com";
 
   useEffect(() => {
     if (!loading && !user) {
